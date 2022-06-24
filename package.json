@@ -1,18 +1,13 @@
 {
-  "name": "my-prisma-project",
+  "name": "prisma-google-cloud-function",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple example of a Google Cloud Function that uses Prisma to connect to a Cloud SQL instance.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prisma": "^3.15.2"
-  },
+  "author": "Wesley LeMahieu",
+  "license": "MIT",
   "dependencies": {
-    "@prisma/client": "^3.15.2"
+    "@google-cloud/functions-framework": "^3.1.2",
+    "@prisma/client": "^3.15.2",
+    "prisma": "^3.15.2"
   }
 }
