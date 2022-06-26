@@ -1,5 +1,6 @@
+# Database Connected GCF
 # Prisma + Google Cloud Function
-###### Connect your GCF to Prisma and make Cloud SQL interaction simpler & cleaner!
+###### Connect your GCF to Prisma and make Cloud SQL interactions simpler & cleaner!
 
 ### Cloud Account Prerequisites:
 - [Google Cloud Console account](https://console.cloud.google.com)
@@ -26,8 +27,8 @@
 1. **nvm use 16** - Switch to Node 16 (nvm install 16.5.1 if not installed)
 2. **npm install** - Install all node_modules for the GCF
 3. **DATABASE_URL=mysql://\<user\>:\<pass\>@localhost/\<database\> npx prisma migrate dev --name init - Run migrations to create tables inside the database.
-2. **DATABASE_URL=mysql://\<user\>:\<pass\>@localhost/\<database\> npx @google-cloud/functions-framework --target=run** - Serve the example GCF locally
-3. **http://localhost:8080/** - Visit the locally served GCF
+4. **DATABASE_URL=mysql://\<user\>:\<pass\>@localhost/\<database\> npx @google-cloud/functions-framework --target=run** - Serve the example GCF locally
+5. **http://localhost:8080/** - Visit the locally served GCF
 
 ##### *A note on easily moving ready components from local to the cloud:
 After cloning this repository, you can upload a zip of the example GCF directory directly to a created Cloud Function. Alternatively, you can manually create & copy GCF files and their contents into your created Cloud Function.
