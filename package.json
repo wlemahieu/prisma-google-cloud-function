@@ -1,7 +1,7 @@
 {
   "name": "prisma-google-cloud-function",
   "version": "1.0.0",
-  "description": "A simple example of a Google Cloud Function that uses Prisma to connect to a Cloud SQL instance.",
+  "description": "An example of a Google Cloud Function that uses Prisma to connect to a Cloud SQL instance.",
   "main": "index.js",
   "author": "Wesley LeMahieu",
   "license": "MIT",
